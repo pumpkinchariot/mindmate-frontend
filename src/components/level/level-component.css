@@ -1,0 +1,41 @@
+.level-container {
+/*    position: fixed;
+    z-index: 2;
+    right: 4rem;
+    top: 2rem;*/
+    padding: 0.6rem;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.level {
+    padding: 0.6rem;
+    /*background-color: #c0a9e5;*/
+    border: 1px solid white;
+    border-radius: 5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    font-family: monospace;
+}
+
+.exp-bar {
+    width: 20vw;
+    height: 2rem;
+    background-color: #180e2c;
+    /*border: 1px solid white;*/
+    border-radius: 2rem;
+
+}
+
+.exp-progress {
+    width: 20%;
+    height: 2rem;
+    background-color: #9564e7;
+    border-radius: 2rem;
+    align-self: start;
+}

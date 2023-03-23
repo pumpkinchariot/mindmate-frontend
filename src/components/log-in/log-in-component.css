@@ -1,0 +1,12 @@
+.log-in-button {
+    padding: 2rem 1rem 1rem 1rem;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    border-style: none;
+    font-size: 1.2rem;
+}
+
+.log-in-button:hover {
+    color: #c0a9e5;
+}

@@ -1,0 +1,51 @@
+.guest-view-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.mind-mate {
+    color: #9564e7;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 5rem;
+}
+
+.explanation-text {
+    color: #9564e7;
+    width: 60%;
+    font-size: 1.6rem;
+    font-family: monospace;
+}
+
+.ready {
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.lets-go-button {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    padding: 1rem;
+    background-color: #c0a9e5;
+    color: white;
+    border-radius: 0.2rem;
+    border-color: #9564e7;;
+}
+
+.learn-more-button {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    padding: 1rem;
+    background-color: transparent;
+    color: #9564e7;
+    border-radius: 0.2rem;
+    border-color: #9564e7;;
+}
