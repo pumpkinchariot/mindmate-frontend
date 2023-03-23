@@ -1,5 +1,6 @@
 import "./user-view-component.css";
 import LevelComponent from "../components/level/level-component";
+import DailyQuestComponent from "../components/daily-quest-component";
 
 const UserViewComponent = () => {
     return (
@@ -25,9 +26,7 @@ const UserViewComponent = () => {
                     Get your daily dose!
                 </div>
 
-                <div className="featured-topic">
-                    Today's Featured Topic
-                </div>
+                <DailyQuestComponent/>
             </div>
         </>
     );

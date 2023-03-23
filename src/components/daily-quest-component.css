@@ -1,0 +1,59 @@
+.lesson-container {
+    margin-top: 3rem;
+    width: 40vw;
+    height: 50vh;
+    /*border: 2px solid #ffdf7e;*/
+    background-color: white;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.lesson-text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.lesson-title {
+    font-size: 1.4rem;
+    color: #8c6dcd;
+    font-weight: bold;
+}
+
+.lesson-description {
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 0.2rem;
+    color: #ae87f1;
+}
+
+.lesson-button-section {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.lesson-button {
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.4rem;
+    background-color: #c0a9e5;
+    color: white;
+    border-radius: 0.2rem;
+    border-color: #9564e7;
+}
+
+.quiz-button {
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.4rem;
+    background-color: transparent;
+    color: #8c6dcd;
+    border-color: #8c6dcd;
+    border-radius: 0.2rem;
+}
