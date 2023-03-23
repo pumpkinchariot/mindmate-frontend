@@ -6,8 +6,8 @@ const GuestViewComponent = () => {
 
     return(
         <div className="guest-view-container">
-            <div className="mind-mate">
-                Mind Mate
+            <div className="mindmate-frontend">
+                Mindmate
             </div>
             <div className="explanation-text">
                 Build new knowledge in just <span style={{color: "magenta"}}>5 minutes</span> a day!
