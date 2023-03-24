@@ -1,6 +1,43 @@
+
 .status-section {
-    width: 18vw;
-    border: 1px solid #f3d374;
-    height: 100%;
-    border-radius: 0.2rem;
+    width: 12vw;
+    border: 1px solid #d5b144;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+}
+
+.status-title-area {
+    height: 10%;
+}
+
+.status-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.day-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    height: 90%;
+}
+
+.day {
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: #fae29a;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    justify-content: space-between;
+    height: calc(100% / 7);
+}
+
+.day-checked {
+    font-weight: bold;
+    color: #31813e;
+    background-color: #afe78c;
 }

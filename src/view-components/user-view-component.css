@@ -1,7 +1,7 @@
 .user-view-container {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 6rem;
     padding: 5rem 1rem 1rem 1rem;
     align-items: center;
 }

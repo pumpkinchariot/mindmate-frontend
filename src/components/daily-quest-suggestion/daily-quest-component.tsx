@@ -11,7 +11,7 @@ const DailyQuestComponent = () => {
         <>
             <div className={"daily-quest-container"}>
             <div className="daily-quest-section-title">
-                Daily Quest
+                Today's Suggestion
             </div>
             <div className="lesson-container">
                 <div className="lesson-text-section">

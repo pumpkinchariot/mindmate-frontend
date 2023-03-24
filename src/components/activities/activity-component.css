@@ -1,0 +1,12 @@
+.activity-section {
+    width: 80%;
+}
+
+.activity-title {
+    font-size: 1.4rem;
+}
+
+.activity-container {
+    background-color: #c0a9e5;
+    height: 30vh;
+}

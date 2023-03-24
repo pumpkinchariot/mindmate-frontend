@@ -4,20 +4,19 @@ import DailyQuestComponent from "../components/daily-quest-suggestion/daily-ques
 import CategoryOverviewComponent from "../components/catgeories/category-overview-component";
 import UserViewHeaderComponent from "../components/user-view-header/user-view-header-component";
 import StatusComponent from "../components/status/status-component";
+import ActivityComponent from "../components/activities/activity-component";
 
 const UserViewComponent = () => {
     return (
         <>
             <div className="user-view-container">
                 <UserViewHeaderComponent/>
-
                 <div className={"quest-section"}>
                     <StatusComponent/>
                     <DailyQuestComponent/>
                 </div>
-                <div>
-                    <CategoryOverviewComponent/>
-                </div>
+                <ActivityComponent/>
+                <CategoryOverviewComponent/>
             </div>
         </>
     );
