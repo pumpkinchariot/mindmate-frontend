@@ -1,10 +1,25 @@
+.daily-quest-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.daily-quest-section-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: #b69eec;
+    padding: 0.4rem;
+    border-radius: 0.6rem 0.6rem 0rem 0rem;
+    color: #4e2f8d;
+    flex-grow: 0;
+
+}
+
 .lesson-container {
-    margin-top: 3rem;
     width: 40vw;
-    height: 50vh;
+    flex-grow: 1;
     /*border: 2px solid #ffdf7e;*/
     background-color: white;
-    border-radius: 0.6rem;
     display: flex;
     flex-direction: column;
     font-family: monospace;
@@ -19,12 +34,14 @@
 }
 
 .lesson-title {
+    text-align: left;
     font-size: 1.4rem;
     color: #8c6dcd;
     font-weight: bold;
 }
 
 .lesson-description {
+    text-align: left;
     font-size: 1.2rem;
     height: 50px;
     border-radius: 0.2rem;
@@ -56,4 +73,14 @@
     color: #8c6dcd;
     border-color: #8c6dcd;
     border-radius: 0.2rem;
+}
+
+.generate-suggestion-button {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    background-color: black;
+    border-radius: 0rem 0rem 0.6rem 0.6rem;
+    padding: 0.4rem;
+    flex-grow: 0;
 }

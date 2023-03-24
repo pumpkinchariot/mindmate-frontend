@@ -9,6 +9,10 @@ Topic changes every day => suggestions based on interests (mixed between new stu
 const DailyQuestComponent = () => {
     return (
         <>
+            <div className={"daily-quest-container"}>
+            <div className="daily-quest-section-title">
+                Daily Quest
+            </div>
             <div className="lesson-container">
                 <div className="lesson-text-section">
                     <div className="lesson-title">
@@ -30,6 +34,8 @@ const DailyQuestComponent = () => {
                         <button className="quiz-button">start quiz ➜</button>
                     </div>
                 </div>
+            </div>
+            <button className="generate-suggestion-button">suggest another topic</button>
             </div>
         </>);
 }

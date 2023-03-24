@@ -1,0 +1,30 @@
+.user-view-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-button-section {
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.header-button {
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+.header-button:hover {
+    color: magenta;
+}
